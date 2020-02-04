@@ -1,0 +1,15 @@
+{
+  "name": "socket-test-server",
+  "version": "1.0.0",
+  "description": "Test server for me. You can use it.",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "Valjang",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
