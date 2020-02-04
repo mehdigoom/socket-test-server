@@ -3,11 +3,13 @@ function Server(opt) {
     this.httpServer = require('http').createServer();
     this.io = require('socket.io')(this.httpServer)
     this.start();
+   
 }
-Server.prototype.start = function() {
 
+Server.prototype.start = function() {
+    Val = require('./functions');
     console.log("Runnig server")
-    
+  Val.save()
 that = this;
    
 
