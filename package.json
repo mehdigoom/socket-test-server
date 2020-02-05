@@ -5,11 +5,12 @@
   "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node start.js"
+    "start": "node start.ts"
   },
   "author": "Valjang",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.3.0",
+    "typescript": "^3.7.5"
   }
 }
